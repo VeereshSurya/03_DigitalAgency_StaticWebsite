@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'PT Sans', sans-serif;  */
+  font-family: calibri;
+}
+
+.st {
+  position: sticky;
+  top: 0%;
+}
+
+nav {
+  color: white;
+  display: flex;
+  background: rgb(32, 139, 189);
+  height: 60px;
+
+  /* This line of code is for stick the navigation bar */
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+nav ul {
+  margin-top: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-content {
+  display: flex;
+  /* background: green;  */
+  width: 100%;
+  height: 70vh;
+}
+
+.left-side {
+  margin-top: 170px;
+  margin-left: 200px;
+}
+
+.left-side p {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-left: 27%;
+  margin-top: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+}
+
+.right-side {
+  margin-top: 10px;
+}
+
+.right-side img {
+  margin-left: 150px;
+  width: 500px;
+  height: auto;
+}
+
+.service {
+  margin-top: 10%;
+  width: 100%;
+  height: 100vh;
+  /* background: rgb(153, 0, 255);      */
+  background: rgb(226, 221, 221);
+}
+
+.title {
+  padding: 40px 0px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 25%;
+  text-align: center;
+}
+
+.box1 img {
+  width: 200px;
+  height: 200px;
+  /* background: yellowgreen;  */
+  /* border-radius: 50%;  */
+}
+.box h3 {
+  margin-top: 20px;
+}
+
+.box p {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.service-btn {
+  margin-top: 50px;
+  margin-left: 620px;
+}
+
+.service-btn a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: white;
+}
+
+/* about us section styling */
+
+.about {
+  width: 100%;
+  height: 100vh;
+  /* background: lightseagreen;  */
+  background: rgb(255, 250, 250);
+}
+
+.about-title h2 {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-left {
+  margin-top: 7%;
+  margin-left: 200px;
+  line-height: 30px;
+}
+
+.about-left h3 {
+  margin-left: -30px;
+}
+
+.about-right {
+  margin: 0% 0% 0% 12%;
+}
+
+.about-right img {
+  width: 500px;
+  height: auto;
+}
+
+.testimonials {
+  width: 100%;
+  height: 80vh;
+  background: yellowgreen;
+}
+
+.testi-title h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.clients {
+  display: flex;
+}
+
+.client1 {
+  margin-top: 60px;
+  margin-left: 340px;
+  width: 20%;
+  height: auto;
+  padding: 5px 20px;
+  border-width: 3px;
+  border-left: solid;
+  border-color: blueviolet;
+}
+
+#user2 {
+  margin-left: 70px;
+}
+
+.author {
+  margin-top: 10px;
+  display: flex;
+}
+.author img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.author address {
+  margin-left: 10px;
+}
+
+.social-media {
+  width: 100%;
+  height: 40vh;
+  /* background: chocolate;  */
+}
+
+.social-title {
+  text-align: center;
+}
+
+.social-title h2 {
+  padding-top: 30px;
+}
+
+.media {
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.media i {
+  width: 35px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.media a {
+  text-decoration: none;
+}
+
+#fb {
+  color: blue;
+}
+
+#inst {
+  color: rgb(236, 43, 43);
+}
+
+#twit {
+  color: rgb(8, 160, 233);
+}
+
+#wat {
+  color: rgb(5, 114, 5);
+}
+
+#lin {
+  color: rgb(3, 95, 145);
+}
+
+/* Footer styleing */
+
+footer {
+  color: white;
+  width: 100%;
+  height: 60vh;
+  background: rgb(133, 41, 133);
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  text-align: center;
+}
+
+#f-one {
+  text-align: center;
+  margin-top: 10%;
+  width: 25%;
+}
+
+#f-one h3 {
+  font-size: 20px;
+}
+
+.copywrite {
+  margin-left: 60px;
+}
+
+.copywrite p {
+  line-height: 27px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-left: 60px;
+}
+
+#f-two {
+  margin-left: 60px;
+  margin-top: 7%;
+  display: flex;
+}
+
+#f-two p {
+  margin-left: 10px;
+}
+
+.fas {
+  color: white;
+  background: linear-gradient(rgb(143, 51, 143), rgb(95, 1, 99));
+  padding: 5px 7px;
+  font-size: 20px;
+}
+
+.far {
+  color: white;
+  background: linear-gradient(rgb(143, 51, 143), rgb(95, 1, 99));
+  padding: 5px 7px;
+  font-size: 20px;
+}
+
+.msg input {
+  padding: 3px 5px;
+  outline: none;
+  margin-top: 25px;
+  width: 70%;
+  height: 13%;
+  border-radius: 5px;
+}
+
+.sub {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.sub a {
+  color: white;
+  background: linear-gradient(rgb(143, 51, 143), rgb(95, 1, 99));
+  padding: 5px 10px;
+  text-decoration: none;
+}
